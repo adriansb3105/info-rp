@@ -1,6 +1,7 @@
 body {
 
     background: #1976D2;
+	background: #F44336;
 }
 
 #main-info {
@@ -14,8 +15,13 @@ h1 {
 
     text-align: center;
     font-family: Lato;
+
     font-weight: 300;
     color: #ffffff;
+
+	font-weight: 300;
+	color: #CFD8DC;
+
 }
 
 h3 {
@@ -27,26 +33,44 @@ h3 {
 
     font-family: Lato;
     font-weight: 300;
+
     color: #ffffff;
+
+    color: #CFD8DC;
+
 }
 
 #guide {
 
+
     margin-top: 30px;
+
+	margin-top: 30px;
+
     margin-left: auto; 
     margin-right: auto;
 
     padding-left: 180px;
 
     width: 40em;
+
     font-family: Lato;
     font-weight: 300;
     color: #ffffff;
+
+	font-family: Lato;
+	font-weight: 300;
+	color: #CFD8DC;
+
 }
 
 #guide a {
 
+
     color: #CFD8DC;
+
+	color: #CFD8DC;
+
 }
 
 /*Boton de ingresar al foro*/
@@ -59,10 +83,17 @@ h3 {
 
     height: 60px;
     width: 150px;
+
     background-color: #1976D2;
     border: 2px solid #ffffff;
     border-radius: 50px;
     color: #ffffff;
+
+    background-color: #F44336;
+    border: 3px solid #CFD8DC;
+    border-radius: 50px;
+    color: #CFD8DC;
+
 
     font-size: 18px;
     font-family: Lato;
@@ -73,6 +104,7 @@ h3 {
 }
 
 #enterForumButton:hover {
+
 
     background-color: #ffffff;
     color: #1976D2;
@@ -99,3 +131,9 @@ footer a img {
     padding-top: 40px;
     padding-left: 10px;
 }
+
+    background-color: #CFD8DC;
+    color: #F44336;
+    transition: 0.4s;
+}
+
