@@ -1,45 +1,74 @@
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
-body {
-    background: #1976D2;
-    color: #CFD8DC;
-    font-family: Lato;
+body{
+    background: #333;
     position: relative;
+    font-family: Lato;
 }
-a{
-    color: #171717;
+a {
     text-decoration: none;
 }
 a:hover{
-    color: black;
     text-decoration: underline;
 }
 .wrapper{
     min-height: 100%;
     position: relative;
 }
-.header{
-    padding: 60px;
-    background: #212121;
+#header {
+    height: 40px;
+    padding: 10px 15px;
+    background: #333;
+    border-bottom: 5px #08c solid ;
 }
-.top-menu-bar-items{
-    list-style: none;
+.logo { 
     float: left;
-    margin: 60px;
+    color: white;
+    font-family: Lato;
+    font-size: 1.4em;
+    line-height: 2em;
+    cursor: default;
 }
+.top-menu-list {
+    display: inline ;
+    float: right ;
+    list-style: none ;
+    margin: 0 ;
+    padding: 0 ;
+}
+.top-menu-list li {
+    float: left;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 45px;
+    text-align: center;
+}
+.top-menu-list li a {
+    display: block ;
+    height: 40px;
+    width: 110px;  
+    color: #999; 
+    font-weight: bold;
+    text-decoration: none ;
+}
+.top-menu-list li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 #main-info {
+    background: #1976D2;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
     width: 35em;
+    border-radius: 10px;
 }
-
 .welcome-title, .subtitle{
     text-align: center;
     font-weight: 300;
@@ -50,14 +79,18 @@ a:hover{
 .subtitle {
     font-size: 1.3em;
 }
-
+#main-info a{
+    color: #171717;
+}
+#main-info a:hover{
+    color: #fff;
+}
 #guide {
     margin-left: auto; 
     margin-right: auto;
     width: 25em;
 }
 
-/*Boton de ingresar al foro*/
 #enterForumButton {
     margin-top: 50px;
     display: block;
@@ -67,7 +100,7 @@ a:hover{
     width: 150px;
     border: 3px solid #CFD8DC;
     border-radius: 50px;
-    color: #1976D2;
+    color: #08c;
     font-size: 18px;
     font-family: Lato;
     font-weight: 400;
@@ -77,18 +110,18 @@ a:hover{
 }
 
 #enterForumButton:hover {
-    background-color: #1976D2;
+    background-color: #08c;
     color: #fff;
     transition: 0.4s;
 }
-
 .footer {
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     bottom: 0;
-    width: 98.5%;
+    width: 95%;
     height: 100px;
     padding: 10px;
-    background: ;
 }
 
 .github-footer {
