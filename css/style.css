@@ -1,100 +1,62 @@
+html,
 body {
-
-    background: #1976D2;
-	background: #F44336;
+   margin:0;
+   padding:0;
+   height:100%;
 }
-
+body {
+    background: #1976D2;
+    color: #CFD8DC;
+    font-family: Lato;
+    position: relative;
+}
+a{
+    color: #171717;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.wraper{
+    min-height: 100%;
+    position: relative;
+}
+.body{
+    padding-bottom:128px;
+}
 #main-info {
-
-    margin-top: 200px;
+    padding: 10px;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
+    width: 35em;
 }
 
-h1 {
-
+.welcome-title, h3 {
     text-align: center;
-    font-family: Lato;
-
     font-weight: 300;
-    color: #ffffff;
-
-	font-weight: 300;
-	color: #CFD8DC;
-
-}
-
-h3 {
-
-    text-align: center;
-
-    padding-right: 300px;
-    padding-top: 20px;
-
-    font-family: Lato;
-    font-weight: 300;
-
-    color: #ffffff;
-
-    color: #CFD8DC;
-
+    
 }
 
 #guide {
-
-
     margin-top: 30px;
-
-	margin-top: 30px;
-
     margin-left: auto; 
     margin-right: auto;
-
-    padding-left: 180px;
-
-    width: 40em;
-
-    font-family: Lato;
-    font-weight: 300;
-    color: #ffffff;
-
-	font-family: Lato;
-	font-weight: 300;
-	color: #CFD8DC;
-
-}
-
-#guide a {
-
-
-    color: #CFD8DC;
-
-	color: #CFD8DC;
-
+    width: 25em;
 }
 
 /*Boton de ingresar al foro*/
 #enterForumButton {
-
     margin-top: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     height: 60px;
     width: 150px;
-
-    background-color: #1976D2;
-    border: 2px solid #ffffff;
-    border-radius: 50px;
-    color: #ffffff;
-
-    background-color: #F44336;
     border: 3px solid #CFD8DC;
     border-radius: 50px;
-    color: #CFD8DC;
-
-
+    color: #1976D2;
     font-size: 18px;
     font-family: Lato;
     font-weight: 400;
@@ -104,36 +66,25 @@ h3 {
 }
 
 #enterForumButton:hover {
-
-
-    background-color: #ffffff;
-    color: #1976D2;
+    background-color: #1976D2;
+    color: #fff;
     transition: 0.4s;
 }
 
-footer {
-
+.footer {
     position: absolute;
-    left: 0;
     bottom: 0;
-    height: 150px;
-    width: 100%;
-
+    width: 98.5%;
+    height: 128px;
+    padding: 10px;
     background: #212121;
+    margin-top: 50px;
 }
 
-footer a img {
-
-    display: block;
-
+.github-footer {
     margin-left: auto;
     margin-right: auto;
     padding-top: 40px;
     padding-left: 10px;
+    width: 64px;
 }
-
-    background-color: #CFD8DC;
-    color: #F44336;
-    transition: 0.4s;
-}
-

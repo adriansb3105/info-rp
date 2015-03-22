@@ -7,38 +7,37 @@
 	</head>
 
 	<body>
-
-		<div id="main-info">
-
-			<h1>Bienvenido al foro de Informatica Empresarial</h1>
-
-			<h3>Si aun no estas registrado:</h3>
-
-			<p id="guide">
-				1. Primero deberas aceptar el acuerdo de registro. <br><br>
-				2. Luego deberas ingresar tus datos y registrarte.<br><br>
-				3. Listo para contribuir en el foro!<br><br>
-				4. Registrate <a href="http://info-rp.tk/foro/member.php?action=register">aqui</a>.
-			</p>
+	<div class="wraper">
+		<div class="header"></div>
+		<div class="body">
+			<div id="main-info">
+				<h1 class="welcome-title">Bienvenido al foro de Informatica Empresarial</h1>
+					<h3>Si aun no estas registrado:</h3>
+						<div id="guide">
+							<ol>
+								<li>Primero deberas aceptar el acuerdo de registro.
+								<li>Luego deberas ingresar tus datos y registrarte.
+								<li>Listo para contribuir en el foro!
+							</ol>
+						</div>
+					<h3>Registrate <a href="http://info-rp.tk/foro/member.php?action=register">aqui</a></h3>
+					<button id="enterForumButton">Ingresar</button>
+			</div>
 
 		</div>
-
-		<button id="enterForumButton">Ingresar</button>
-
+		<div class="footer">
+			<div class="github-footer">
+				<a href="https://github.com/richin13/info-rp" title="Contribuye a este proyecto en GitHub!" target="_blank">
+					<img src="images/github.png" alt="Github logo">
+				</a>
+			</div>
+		</div>
+	</div>
 		<script type="text/javascript">
 
 	    document.getElementById("enterForumButton").onclick = function () {
 	        location.href = "http://info-rp.tk/foro/index.php";
 	    };
 		</script>
-
-		<footer>
-
-			<a href="https://github.com/richin13/info-rp" title="Contribuye a este proyecto en GitHub!" target="_blank">
-				<img src="images/github.png" alt="Github logo">
-			</a>
-
-		</footer>
-
 	</body>
 </html>
